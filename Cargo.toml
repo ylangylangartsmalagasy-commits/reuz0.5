@@ -1,0 +1,15 @@
+[package]
+name = "reuz"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rodio = { version = "0.19", features = ["symphonia-all"] }
+
+iced = { version = "0.12", features = ["tokio", "image"] }
+image = "0.24"
+walkdir = "2.5"
+native-dialog = "0.7"
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
